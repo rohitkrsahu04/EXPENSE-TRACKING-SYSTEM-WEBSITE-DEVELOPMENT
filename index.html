@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income and Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Income and Expense Tracker</h1>
+        <div id="overview"></div>
+        <div id="add-forms">
+            <h2>Add New Record</h2>
+            <form id="income-form">
+                <h3>Add Income</h3>
+                <input type="text" id="income-source" placeholder="Source" required>
+                <input type="number" id="income-amount" placeholder="Amount" required>
+                <button type="submit">Add Income</button>
+            </form>
+            <form id="expense-form">
+                <h3>Add Expense</h3>
+                <input type="text" id="expense-category" placeholder="Category" required>
+                <input type="number" id="expense-amount" placeholder="Amount" required>
+                <button type="submit">Add Expense</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
